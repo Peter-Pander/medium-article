@@ -1,0 +1,82 @@
+/* Fonts and colors */
+body {
+  color: black;
+  font-size: 20px;
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+p {
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+h2 {
+  color: #000000;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: #4352A1;
+}
+
+/* Custom design */
+.banner {
+  background-image: url("images/Capybara.png");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+.banner h1 {
+  font-size: 38px;
+}
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(165, 211, 218, 0.2), rgba(143, 218, 231, 0.2));
+  color: #000000;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgb(144, 198, 219), rgb(121, 153, 221));
+}
+
+/* Media queries */
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
