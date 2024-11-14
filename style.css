@@ -28,6 +28,7 @@ a {
 .banner {
   background-image: url("images/Capybara.png");
   background-size: cover;
+  background-position: right;
   color: white;
   padding: 120px 0;
 }
